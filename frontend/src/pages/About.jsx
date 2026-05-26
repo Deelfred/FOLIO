@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function About() {
   const techStack = [
-    "React",
+    "React/React Native",
     "Node.js",
     "Express",
     "MongoDB",
@@ -16,7 +16,7 @@ function About() {
   const services = [
     {
       title: "Frontend",
-      desc: "React, Tailwind CSS, JavaScript, React Router",
+      desc: "React/React Native, Tailwind CSS, JavaScript, React Router",
     },
     {
       title: "Backend",
@@ -34,15 +34,16 @@ function About() {
 
   return (
     <div className="relative min-h-screen overflow-hidden bg-white px-5 py-20 text-zinc-900 sm:px-8 lg:px-16">
+
       {/* BACKGROUND EFFECTS */}
       <div className="absolute left-[-100px] top-[-100px] h-[250px] w-[250px] rounded-full bg-blue-200 blur-3xl" />
-
       <div className="absolute bottom-[-100px] right-[-100px] h-[300px] w-[300px] rounded-full bg-cyan-200 blur-3xl" />
 
       {/* GRID BACKGROUND */}
       <div className="absolute inset-0 bg-[linear-gradient(rgba(0,0,0,0.03)_1px,transparent_1px),linear-gradient(to_right,rgba(0,0,0,0.03)_1px,transparent_1px)] bg-[size:40px_40px]" />
 
       <div className="relative z-10 mx-auto max-w-7xl">
+
         {/* HEADER */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -55,9 +56,9 @@ function About() {
           </p>
 
           <h1 className="text-4xl font-black leading-tight sm:text-5xl md:text-6xl">
-            Passionate About Building
+            Passionate About Building{" "}
             <span className="block bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">
-              Modern Web Applications
+              Modern Web and Mobile Applications
             </span>
           </h1>
 
@@ -70,6 +71,7 @@ function About() {
 
         {/* MAIN CONTENT */}
         <div className="mt-20 grid gap-14 lg:grid-cols-2">
+
           {/* LEFT SIDE */}
           <motion.div
             initial={{ opacity: 0, x: -40 }}
@@ -88,37 +90,37 @@ function About() {
                   <span className="font-semibold text-blue-600">
                     Alfred Sowah
                   </span>
-                  , a Software Engineering student from Ghana with a
-                  strong passion for building full-stack web
-                  applications.
+                  , a Software Engineering student from Ghana passionate about full-stack development.
                 </p>
 
                 <p className="leading-8">
-                  I work with modern frontend technologies like React
-                  and Tailwind CSS, while also building backend systems
-                  using Node.js, Express, and MongoDB.
+                  I build modern apps using React, React Native, Node.js, Express, and MongoDB.
                 </p>
 
                 <p className="leading-8">
-                  My goal is to create scalable and efficient
-                  applications that solve real-world problems and
-                  deliver amazing user experiences.
+                  My goal is to create scalable systems that solve real-world problems.
                 </p>
               </div>
             </div>
 
             {/* BUTTONS */}
             <div className="flex flex-col gap-4 pt-2 sm:flex-row">
-              <button className="rounded-2xl bg-blue-600 px-7 py-4 font-semibold text-white shadow-lg shadow-blue-500/20 transition duration-300 hover:scale-105 hover:bg-blue-700">
-                Download CV
-              </button>
+
+              {/* VIEW CV */}
+              <Link
+                to="/Cv"
+                className="rounded-2xl bg-blue-600 px-7 py-4 text-center font-semibold text-white shadow-lg shadow-blue-500/20 transition hover:scale-105 hover:bg-blue-700"
+              >
+                View CV
+              </Link>
 
               <Link
                 to="/contact"
-                className="rounded-2xl border border-zinc-300 bg-white px-7 py-4 text-center font-semibold text-zinc-800 shadow-sm transition duration-300 hover:border-blue-500 hover:text-blue-600"
+                className="rounded-2xl border border-zinc-300 bg-white px-7 py-4 text-center font-semibold text-zinc-800 shadow-sm transition hover:border-blue-500 hover:text-blue-600"
               >
                 Contact Me
               </Link>
+
             </div>
           </motion.div>
 
@@ -133,7 +135,7 @@ function About() {
               <motion.div
                 key={i}
                 whileHover={{ y: -5 }}
-                className="rounded-3xl border border-zinc-200 bg-white p-7 shadow-md transition duration-300 hover:shadow-xl"
+                className="rounded-3xl border border-zinc-200 bg-white p-7 shadow-md transition hover:shadow-xl"
               >
                 <h3 className="text-xl font-bold text-blue-600">
                   {item.title}
@@ -163,13 +165,14 @@ function About() {
               <motion.div
                 key={i}
                 whileHover={{ scale: 1.05 }}
-                className="rounded-2xl border border-zinc-200 bg-white p-5 text-center font-semibold shadow-sm transition duration-300 hover:border-blue-500 hover:text-blue-600 hover:shadow-lg"
+                className="rounded-2xl border border-zinc-200 bg-white p-5 text-center font-semibold shadow-sm transition hover:border-blue-500 hover:text-blue-600 hover:shadow-lg"
               >
                 {tech}
               </motion.div>
             ))}
           </div>
         </motion.div>
+
       </div>
     </div>
   );

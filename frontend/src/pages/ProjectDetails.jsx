@@ -28,7 +28,7 @@ const projects = [
     ],
     tech: ["React", "Tailwind"],
     live: "#",
-    github: "#",
+    github: "https://github.com/Deelfred/FOLIO.git",
   },
 ];
 

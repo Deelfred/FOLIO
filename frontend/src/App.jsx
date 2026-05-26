@@ -10,6 +10,7 @@ import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import ProjectDetails from "./pages/ProjectDetails";
+import CV from "./pages/CV";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -107,6 +108,7 @@ function App() {
           <Route path="/projects/:id" element={<ProjectDetails />} />
 
           <Route path="/contact" element={<Contact />} />
+          <Route path="/cv" element={<CV />} />
         </Routes>
       </main>
 

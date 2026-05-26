@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 const skills = [
-  { name: "React", level: "Frontend" },
+  { name: "React/React Native", level: "Frontend" },
   { name: "Tailwind CSS", level: "Styling" },
   { name: "JavaScript", level: "Language" },
   { name: "Node.js", level: "Backend" },
