@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Routes, Route, Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
+import { Analytics } from "@vercel/analytics/react"
 
 // Pages
 import Home from "./pages/Home";
@@ -116,6 +117,8 @@ function App() {
       <footer className="border-t border-zinc-800 py-6 text-center text-sm text-zinc-400">
         <p>© 2026 Alfred Sowah. All rights reserved.</p>
       </footer>
+
+      <Analytics />
     </div>
   );
 }
