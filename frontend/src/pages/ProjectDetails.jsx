@@ -27,7 +27,7 @@ const projects = [
       "/projects/portfolio/S3.jpg",
     ],
     tech: ["React", "Tailwind"],
-    live: "#",
+    live: "https://alfredsowah.vercel.app/",
     github: "https://github.com/Deelfred/FOLIO.git",
   },
 ];
