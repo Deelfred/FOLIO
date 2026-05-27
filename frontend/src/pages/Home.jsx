@@ -117,7 +117,7 @@ function Home() {
 
               {/* IMAGE */}
               <motion.img
-                src="/alfred.png"
+                src="/al.png"
                 alt="Alfred Sowah"
                 whileHover={{ scale: 1.03 }}
                 transition={{ type: "spring", stiffness: 200 }}
