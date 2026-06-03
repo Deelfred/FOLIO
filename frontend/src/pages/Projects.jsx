@@ -18,6 +18,16 @@ const projects = [
     tech: ["React", "Tailwind"],
     link: "/projects/portfolio",
   },
+
+   {
+    id: "church management",
+    title: "Church Management System",
+    description:
+      "A comprehensive system for managing church operations, events, and member information.",
+    tech: ["React", "Node.js", "PostgreSQL"],
+    link: "/projects/church-management",
+  },
+  
 ];
 
 function Projects() {

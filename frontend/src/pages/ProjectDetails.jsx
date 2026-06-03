@@ -30,6 +30,23 @@ const projects = [
     live: "https://alfredsowah.vercel.app/",
     github: "https://github.com/Deelfred/FOLIO.git",
   },
+
+  
+  {
+    id: "church-management",
+    title: "Church Management System",
+    description:
+      "A comprehensive system for managing church operations, events, and member information.",
+    images: [
+      "/projects/potfolio/church1.png",
+      "/projects/potfolio/church2.png",
+      "/projects/potfolio/church3.png",
+      "/projects/potfolio/church4.png",
+    ],
+    tech: ["React", "Node.js", "PostgreSQL"],
+    live: "https://alfredsowah.vercel.app/",
+    github: "https://github.com/Deelfred/FOLIO.git",
+  },
 ];
 
 function ProjectDetails() {
