@@ -38,10 +38,11 @@ const projects = [
     description:
       "A comprehensive system for managing church operations, events, and member information.",
     images: [
-      "/projects/potfolio/church1.png",
-      "/projects/potfolio/church2.png",
-      "/projects/potfolio/church3.png",
-      "/projects/potfolio/church4.png",
+      
+      "/projects/portfolio/c1.png",
+      "/projects/portfolio/c2.png",
+      "/projects/portfolio/c3.png",
+      "/projects/portfolio/c4.jpg",
     ],
     tech: ["React", "Node.js", "PostgreSQL"],
     live: "https://alfredsowah.vercel.app/",
@@ -125,7 +126,7 @@ function ProjectDetails() {
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: i * 0.1 }}
-              className="h-64 w-full rounded-2xl object-cover shadow-lg transition hover:scale-[1.02]"
+              className="h-60 w-full rounded-2xl object-fit shadow-lg transition hover:scale-[1.02]"
             />
           ))}
         </div>
