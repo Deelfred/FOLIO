@@ -13,7 +13,7 @@ const projects = [
       "/projects/portfolio/q3.png",
     ],
     tech: ["React", "Node.js", "MongoDB"],
-    live: "alfredsowah.vercel.app",
+    live: "https://alfredsowah.vercel.app/",
     github: "https://github.com/Deelfred/FOLIO.git",
   },
   {
