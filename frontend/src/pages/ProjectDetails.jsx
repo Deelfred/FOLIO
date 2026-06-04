@@ -13,8 +13,8 @@ const projects = [
       "/projects/portfolio/q3.png",
     ],
     tech: ["React", "Node.js", "MongoDB"],
-    live: "#",
-    github: "#",
+    live: "alfredsowah.vercel.app",
+    github: "https://github.com/Deelfred/FOLIO.git",
   },
   {
     id: "portfolio",
