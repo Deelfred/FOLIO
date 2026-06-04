@@ -8,9 +8,9 @@ const projects = [
     description:
       "Full-stack shopping platform with authentication, cart system, and admin dashboard.",
     images: [
-      "/projects/ecommerce/S1.png",
-      "/projects/ecommerce/S2.png",
-      "/projects/ecommerce/S3.png",
+      "/projects/portfolio/q1.png",
+      "/projects/portfolio/q2.png",
+      "/projects/portfolio/q3.png",
     ],
     tech: ["React", "Node.js", "MongoDB"],
     live: "#",

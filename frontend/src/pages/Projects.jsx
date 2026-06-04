@@ -6,7 +6,7 @@ const projects = [
     id: "ecommerce",
     title: "E-Commerce Platform",
     description:
-      "Full-stack shopping platform with authentication, cart system, and admin dashboard.",
+      "Full-stack shopping platform with authentication, and admin dashboard.",
     tech: ["React", "Node.js", "MongoDB"],
     link: "/projects/ecommerce",
   },

@@ -114,6 +114,13 @@ function About() {
                 View CV
               </Link>
 
+                <Link
+                to="/Resume"
+                className="rounded-2xl bg-blue-600 px-7 py-4 text-center font-semibold text-white shadow-lg shadow-blue-500/20 transition hover:scale-105 hover:bg-blue-700"
+              >
+                View Resume
+              </Link>
+
               <Link
                 to="/contact"
                 className="rounded-2xl border border-zinc-300 bg-white px-7 py-4 text-center font-semibold text-zinc-800 shadow-sm transition hover:border-blue-500 hover:text-blue-600"
